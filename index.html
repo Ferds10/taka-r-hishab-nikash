@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taka Poysha</title>
+    <!-- style connect -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap connect -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body class="background-color">
+    <h1 class="section-title">Taka'r Hishab Nikash<img src="images/BDT4.jpg" width="30px" alt=""></h1>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6 mb-5 shadow">
+                <img src="images/BDT1.jpg" width="100%" height="100%" alt="">
+            </div>
+            <div class="col-md-6 bg-white mb-5 text-center shadow">
+                <!-- Income section -->
+                <h4 class="income-box-input my-3">Income</h4>
+                <form action="" class="income-input">
+                    <label for="income-box">Income:</label>
+                    <!-- Income Input Box -->
+                    <input class="mb-3" id="income-box" type="text" placeholder="00">
+                </form>
+                <!-- All Expenses section -->
+                <h4 class="mb-3">Expenses</h4>
+                <form action="" class="expenses-input">
+                    <label for="food-box">Food: </label>
+                    <!-- Food Expense Input Box -->
+                    <input class="mb-2 ms-3" id="food-box" type="text" placeholder="00">
+                    <br>
+                    <label for="rent-box">Rent: </label>
+                    <!-- Rent Expense Input Box -->
+                    <input class="mb-2 ms-3" id="rent-box" type="text" placeholder="00">
+                    <br>
+                    <label for="clothes-box">Clothes:</label>
+                    <!-- Clothes Expense Input Box -->
+                    <input class="mb-2" id="clothes-box" type="text" placeholder="00">
+                    <br>
+                    <!-- Calculation Button -->
+                    <button type="submit" id="calculate-btn"
+                        class="mt-3 ms-4 rounded-2 btn-md bg-primary text-white rounded-2 mb-2"
+                        id="income-expens-btn">Calculate</button>
+                </form>
+                <!-- Total Expenses Field -->
+                <h4>Total Expenses: <span id="total-expense-field">00</span></h4>
+                <!-- Balance Field -->
+                <h4 class="mb-3">Balance: <span id="balance-field">00</span></h4>
+                <form class="d-flex justify-content-center" action="">
+                    <label for="save-box">Save: </label>
+                    <!-- Save Input Box -->
+                    <input class="ms-2 me-2" id="save-box" type="text" placeholder="00">
+                    <p>%</p>
+                    <!-- Save button -->
+                    <button type="submit" class="rounded-2 btn-md bg-primary text-white ms-2"
+                        id="save-btn">Save</button>
+                </form>
+                <br>
+                <!-- Saving Field -->
+                <h4>Saving Amount: <span id="savings-field">00</span></h4>
+                <!-- Remaining Field -->
+                <h4>Remaining Balance: <span id="Remaining-balance-field">00</span></h4>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- script connect -->
+    <script src="js/script.js"></script>
+    <!-- bootstrap js connect -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

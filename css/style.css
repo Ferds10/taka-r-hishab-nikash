@@ -1,0 +1,22 @@
+
+.background-color{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* .section-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px;
+} */
+/* .income-input{
+    margin-left: 10px;
+}
+.expenses-input{
+    margin-left: 10px;
+} */
